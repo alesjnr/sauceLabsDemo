@@ -1,7 +1,7 @@
 {
-  "name": "teste",
-  "version": "1.0.0",
-  "description": "",
+  "name": "test_automation_sauce_labs_demo",
+  "version": "1.0.1",
+  "description": "Test automation project of website https://www.saucedemo.com",
   "main": "index.js",
   "scripts": {
     "cy-open-smoke": "npx cypress open --env grepTags=smoke",
@@ -10,7 +10,7 @@
     "cy-run-regression": "npx cypress run --env grepTags=regression"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ales Jr",
   "license": "ISC",
   "devDependencies": {
     "@cypress/grep": "^3.1.5",
